@@ -94,7 +94,7 @@ public final class ModelIdentifiers {
 
         for (RegistryKey<String> patternKey : Registries.DECORATED_POT_PATTERN.getKeys()) {
             var pattern = patternKey.getValue().getPath();
-            var ids = new Identifier[orderedHorizontalDirs.length];;
+            var ids = new Identifier[orderedHorizontalDirs.length];
 
             for (int i = 0; i < 4; i++) {
                 ids[i] = of("block/" + pattern + "_" + orderedHorizontalDirs[i].getName(),
