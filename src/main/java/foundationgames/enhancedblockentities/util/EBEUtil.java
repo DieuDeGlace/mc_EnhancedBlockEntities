@@ -46,9 +46,7 @@ public enum EBEUtil {;
     }
 
     public static boolean isVanillaResourcePack(ResourcePack pack) {
-        return (pack instanceof DefaultResourcePack) ||
-                // Terrible quilt compat hack
-                ("org.quiltmc.qsl.resource.loader.api.GroupResourcePack$Wrapped".equals(pack.getClass().getName()));
+        return (pack instanceof DefaultResourcePack);
     }
 
     public static Identifier id(String path) {
