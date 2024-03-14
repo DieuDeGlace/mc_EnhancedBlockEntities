@@ -33,9 +33,6 @@ dependencies {
 	// Mod Menu because config screen access from another place
 	modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
 
-	// Dashloader (compatibility)
-	modCompileOnly "maven.modrinth:dashloader:${project.dashloader_version}"
-
 	// a bit less load time
 	modLocalRuntime "maven.modrinth:lazydfu:0.1.3"
 
