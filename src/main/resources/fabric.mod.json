@@ -20,10 +20,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "foundationgames.enhancedblockentities.EnhancedBlockEntities"
+      "dev.foundationgames.enhancedblockentities.EnhancedBlockEntities"
     ],
     "modmenu": [
-      "foundationgames.enhancedblockentities.config.gui.EBEModMenuPlugin"
+      "dev.foundationgames.enhancedblockentities.config.gui.EBEModMenuPlugin"
     ]
   },
   "mixins": [
@@ -39,13 +39,6 @@
     "optifabric": "*"
   },
 
-  "accessWidener": "enhancedblockentities.accesswidener",
+  "accessWidener": "enhancedblockentities.accesswidener"
 
-  "custom": {
-    "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.gg/7Aw3y4RtY9"
-      }
-    }
-  }
 }
