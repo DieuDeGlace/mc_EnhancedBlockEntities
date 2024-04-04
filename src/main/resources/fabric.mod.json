@@ -20,10 +20,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "dev.foundationgames.enhancedblockentities.EnhancedBlockEntities"
+      "foundationgames.enhancedblockentities.EnhancedBlockEntities"
     ],
     "modmenu": [
-      "dev.foundationgames.enhancedblockentities.config.gui.EBEModMenuPlugin"
+      "foundationgames.enhancedblockentities.config.gui.EBEModMenuPlugin"
     ]
   },
   "mixins": [
